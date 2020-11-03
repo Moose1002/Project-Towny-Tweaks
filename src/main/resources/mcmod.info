@@ -1,0 +1,12 @@
+[{
+  "modid": "projecttownytweaks",
+  "name": "Project Towny Tweaks",
+  "description": "Tweaks for the Modpack Project Towny",
+  "version": "0.1",
+  "mcversion": "1.12.2",
+  "logoFile": "assets/examplemod/textures/logo.png",
+  "url": "minecraftforge.net/",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["Moose1002"],
+  "credits": "I'd like to thank my mother and father."
+}]
