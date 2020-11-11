@@ -1,11 +1,9 @@
 package moose.projecttownytweaks.common.items;
 
-import moose.projecttownytweaks.common.Main;
-import moose.projecttownytweaks.common.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel{
+public class ItemBase extends Item{
 
 	public ItemBase(String name) {
 		
@@ -14,12 +12,5 @@ public class ItemBase extends Item implements IHasModel{
 		setCreativeTab(CreativeTabs.MATERIALS);
 		
 			}
-	
-	@Override
-	public void registerModels() {
-		
-		Main.proxy.registerItemRenderer(this, 0, "inventory");
-	}
-
 	
 }
